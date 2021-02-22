@@ -1,4 +1,5 @@
 from django.http import HttpResponse
 
+
 def dashboard(request):
-    return HttpResponse('<h1> Welcome to dashboard </h1>')
+    return HttpResponse('<h1>Hello World </h1>')
